@@ -14,7 +14,25 @@ Relaciones: `students` 1:N `enrollments` y `courses` 1:N `enrollments`. Entre `s
 
 ### Consulta 1: inscripciones con estudiante, curso y porcentaje de completado
 
-Devuelve 16 inscripciones, una por cada fila de `enrollments`, con el nombre del estudiante, el título del curso y su porcentaje. Ejemplos: Emily Watson, Intro to Python, 85; Marco Rossi, Advanced Python, 95; Yuki Nakamura, UI/UX Fundamentals, 0.
+| name | title | completion_percentage |
+|---|---|---|
+| Emily Watson | Intro to Python | 85 |
+| Emily Watson | Web Design Basics | 60 |
+| Klaus Weber | Intro to Python | 92 |
+| Klaus Weber | Data Analysis with SQL | 78 |
+| Lucia Fernandes | Web Design Basics | 5 |
+| Lucia Fernandes | Digital Marketing 101 | 3 |
+| Marco Rossi | Advanced Python | 95 |
+| Marco Rossi | Intro to Python | 88 |
+| Yuki Nakamura | Data Analysis with SQL | 45 |
+| Yuki Nakamura | UI/UX Fundamentals | 0 |
+| Pierre Dubois | UI/UX Fundamentals | 0 |
+| Priya Sharma | Digital Marketing 101 | 70 |
+| Priya Sharma | Intro to Python | 55 |
+| Pierre Dubois | Data Analysis with SQL | 20 |
+| Emily Watson | Advanced Python | 40 |
+| Lucia Fernandes | Advanced Python | 0 |
+
 
 ### Consulta 2: estudiantes que han aprobado al menos un curso
 
