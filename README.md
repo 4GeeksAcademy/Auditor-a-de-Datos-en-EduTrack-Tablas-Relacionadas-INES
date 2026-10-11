@@ -1,6 +1,5 @@
 # Auditor-a-de-Datos-en-EduTrack-Tablas-Relacionadas-INES
 
-# Auditoría de datos en EduTrack
 
 Este es mi proyecto del curso sobre bases de datos relacionales.
 
