@@ -24,7 +24,7 @@ usando consultas SQL en Supabase.
 - A comprobar que no hay datos huérfanos en la base de datos.
 - Que leer los mensajes de error ayuda mucho a encontrar el fallo.
 
-## Lo que más me costó
+## Lo que más me costó a mi
 
 Al principio me costó entender cómo se unían las tablas y cuándo usar
 LEFT JOIN en vez de INNER JOIN. Poco a poco, haciendo las consultas
